@@ -40,7 +40,7 @@ public class StarRating {
         }
         
         if(decimalNum==0.5){
-            if(stringBuilder.isEmpty())
+            if(stringBuilder.length()==0)
                 stringBuilder.append("half");
             else
                 stringBuilder.append(" half").toString();
@@ -48,7 +48,7 @@ public class StarRating {
         }
 
         for(int i=counter;i<5;i++){
-            if(stringBuilder.isEmpty())
+            if(stringBuilder.length()==0)
             {
                 stringBuilder.append("empty");
                 continue;

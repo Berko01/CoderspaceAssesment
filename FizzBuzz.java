@@ -2,6 +2,7 @@ public class FizzBuzz {
 
     public String fizzBuzz(int num){
 
+        
         StringBuilder stringBuilder = new StringBuilder();
             
         int[] arr = new int[num];
@@ -10,7 +11,7 @@ public class FizzBuzz {
         {
             arr[i] = i+1;
 
-            if(stringBuilder.isEmpty())
+            if(stringBuilder.length()==0)
             {
                 stringBuilder.append(arr[i]);
                 continue;
